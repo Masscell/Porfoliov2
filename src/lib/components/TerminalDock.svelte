@@ -9,7 +9,7 @@
 
   let input = '';
   let output: string[] = [
-    'AlexOS portfolio terminal ready.',
+    'MarcelOS portfolio terminal ready.',
     'Try: help, projects, skills, contact, resume, clear'
   ];
   let terminalBody: HTMLDivElement;
@@ -30,7 +30,7 @@
       window.open('/resume.pdf', '_blank', 'noopener,noreferrer');
       return ['Resume opened in a new tab.'];
     },
-    about: () => ['Alex Morgan builds premium SvelteKit interfaces where motion, accessibility, and clarity meet.'],
+    about: () => ['Marcel Onoja is a frontend developer specializing in responsive design, modern frameworks, and user-focused digital experiences.'],
     clear: () => []
   };
 

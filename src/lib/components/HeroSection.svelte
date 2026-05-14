@@ -12,13 +12,14 @@
 
   <div class="hero-grid">
     <div class="hero-copy">
-      <p class="eyebrow reveal-up">SvelteKit interface engineer / motion systems</p>
+      <p class="eyebrow reveal-up">Frontend Developer / UI Engineer</p>
       <h1 id="hero-title" class="hero-title">
-        Alex Morgan builds cinematic product interfaces that feel fast, clear, and alive.
+        Marcel builds responsive web experiences with creative interaction design.
       </h1>
       <p class="hero-intro reveal-up delay-1">
-        I design and engineer immersive web experiences for teams that need frontend craft, performance discipline,
-        and memorable interaction design in the same room.
+        Computer Science graduate with practical experience in web development, digital operations, and product design.
+        Skilled in React, Next.js, and modern frontend technologies. Passionate about building secure, user-friendly
+        solutions and driving digital transformation.
       </p>
 
       <div class="hero-actions reveal-up delay-2">
@@ -26,16 +27,16 @@
           View Projects
           <ArrowDown size={18} />
         </button>
-        <a class="secondary-action" href="/resume.pdf" aria-label="Download resume">
+        <a class="secondary-action" href="tel:+234-810-708-5529" aria-label="Call Marcelinus">
           <Download size={18} />
-          Resume
+          +234 810-708-5529
         </a>
       </div>
 
       <div class="social-row reveal-up delay-3" aria-label="Social links">
-        <a href="https://github.com/" aria-label="GitHub profile"><Github size={18} /> GitHub</a>
-        <a href="https://linkedin.com/" aria-label="LinkedIn profile"><Linkedin size={18} /> LinkedIn</a>
-        <a href="mailto:alex@example.com" aria-label="Email Alex"><Mail size={18} /> Email</a>
+        <a href="https://github.com/marcellonoja" aria-label="GitHub profile"><Github size={18} /> GitHub</a>
+        <a href="https://linkedin.com/in/marcelinus-onoja" aria-label="LinkedIn profile"><Linkedin size={18} /> LinkedIn</a>
+        <a href="mailto:Marcellonoja7@gmail.com" aria-label="Email Marcelinus"><Mail size={18} /> Email</a>
       </div>
     </div>
 

@@ -7,12 +7,12 @@
 </script>
 
 <svelte:head>
-  <title>Alex Morgan | Creative Frontend Engineer</title>
+  <title>Marcel Onoja | Frontend Developer & UI Engineer</title>
   <meta
     name="description"
     content="A cinematic SvelteKit portfolio for a frontend engineer specializing in product interfaces, motion systems, and immersive web experiences."
   />
-  <meta property="og:title" content="Alex Morgan | Creative Frontend Engineer" />
+  <meta property="og:title" content="Marcel Onoja | Frontend Developer & UI Engineer" />
   <meta
     property="og:description"
     content="Immersive portfolio showcasing advanced frontend engineering, SvelteKit mastery, animation craft, and product thinking."

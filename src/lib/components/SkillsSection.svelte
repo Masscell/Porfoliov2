@@ -1,49 +1,37 @@
 <script lang="ts">
   import { Cpu, Gauge, Layers3, Sparkles } from 'lucide-svelte';
   import { inView } from '$lib/actions/inView';
-
-  const systems = [
-    {
-      icon: Layers3,
-      title: 'Component Architecture',
-      text: 'Reusable primitives, section-level composition, typed content contracts, and scalable route boundaries.'
-    },
-    {
-      icon: Sparkles,
-      title: 'Motion Direction',
-      text: 'Cohesive reveals, magnetic actions, reduced-motion fallbacks, and transform-first animation choices.'
-    },
-    {
-      icon: Gauge,
-      title: 'Performance Discipline',
-      text: 'Static generation, lazy interaction layers, stable layout geometry, font restraint, and low-shift sections.'
-    },
-    {
-      icon: Cpu,
-      title: 'Product Engineering',
-      text: 'Accessible forms, resilient feedback states, keyboard navigation, and polished microinteractions.'
-    }
-  ];
+  import { skills, softSkills } from '$lib/data/resume';
 </script>
 
 <section id="skills" class="systems-section section-pad" aria-labelledby="systems-title">
-  <div class="section-kicker">Engineering Systems</div>
+  <div class="section-kicker">Technical Skills</div>
   <div class="systems-layout">
     <div class="systems-copy" use:inView>
-      <h2 id="systems-title">Built to signal senior frontend judgment.</h2>
+      <h2 id="systems-title">Equipped with modern frontend technologies and development practices.</h2>
       <p>
-        The portfolio uses SvelteKit’s strengths directly: isolated components, reactive stores, progressive
-        enhancement, static output readiness, and careful browser-only interaction layers.
+        Specialized in responsive design, performance optimization, and building user-friendly interfaces. Experienced
+        with both traditional web development and emerging frontend frameworks, from React and Next.js to SvelteKit and
+        modern CSS.
       </p>
     </div>
 
     <div class="systems-grid">
-      {#each systems as item}
+      {#each skills as category}
         <article class="system-card" use:inView>
-          <svelte:component this={item.icon} size={22} />
-          <h3>{item.title}</h3>
-          <p>{item.text}</p>
+          <Layers3 size={22} />
+          <h3>{category.category}</h3>
+          <p>{category.skills.join(', ')}</p>
         </article>
+      {/each}
+    </div>
+  </div>
+
+  <div class="soft-skills-section" use:inView>
+    <h3>Soft Skills</h3>
+    <div class="soft-skills-grid">
+      {#each softSkills as skill}
+        <span class="skill-badge">{skill}</span>
       {/each}
     </div>
   </div>

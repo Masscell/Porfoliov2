@@ -25,12 +25,12 @@
 <section id="contact" class="contact-section section-pad" aria-labelledby="contact-title">
   <div class="contact-copy" use:inView>
     <div class="section-kicker">Contact</div>
-    <h2 id="contact-title">Have a product that needs frontend presence?</h2>
+    <h2 id="contact-title">Ready to collaborate on your next project?</h2>
     <p>
-      Send the brief, timeline, or messy early idea. I’m especially useful where interaction design, SvelteKit, and
-      product clarity overlap.
+      I'm interested in freelance opportunities, internships, and full-time roles where I can contribute my frontend
+      expertise and creative problem-solving skills to build exceptional user experiences.
     </p>
-    <a href="mailto:alex@example.com">alex@example.com</a>
+    <a href="mailto:Marcellonoja7@gmail.com">Marcellonoja7@gmail.com</a>
   </div>
 
   <form class="contact-form" use:inView on:submit|preventDefault={submit} novalidate>

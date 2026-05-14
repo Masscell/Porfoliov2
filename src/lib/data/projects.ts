@@ -14,60 +14,74 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    slug: 'orbit-command',
-    title: 'Orbit Command',
+    slug: 'joicys-haven',
+    title: 'Joicy\'s Haven Beauty Spa',
     category: 'Product',
     description:
-      'A real-time operations dashboard for distributed teams, blending command palette workflows with deeply instrumented product telemetry.',
-    impact: 'Reduced incident triage time by 42% with role-aware views and animation-led attention routing.',
-    stack: ['SvelteKit', 'TypeScript', 'WebSockets', 'Motion', 'Postgres'],
+      'A fully functional beauty spa website showcasing services with responsive design and smooth interactions. Built with modern frontend technologies and animation libraries.',
+    impact: 'Delivered a complete product with responsive design and engaging user interface.',
+    stack: ['React', 'Next.js', 'TailwindCSS', 'Framer Motion', 'HTML5'],
     github: 'https://github.com/',
-    demo: 'https://vercel.com/',
+    demo: 'https://themarcell.vercel.app/',
     accent: '#7dd3fc',
-    preview: 'Telemetry command surface with live health streams',
-    highlights: ['Role-aware navigation', 'Optimistic realtime controls', 'Keyboard-first workflows']
+    preview: 'Beauty spa website with service showcase and booking interface',
+    highlights: ['Responsive Design', 'Smooth Animations', 'Service Showcase']
   },
   {
-    slug: 'neural-market',
-    title: 'Neural Market',
+    slug: 'cancer-detector',
+    title: 'Cervical Cancer Detector',
     category: 'AI',
     description:
-      'An AI-assisted ecommerce studio that converts merchandising intent into launch-ready pages, offers, and localized campaign variants.',
-    impact: 'Helped teams publish campaign experiments 3.6x faster while improving creative consistency.',
-    stack: ['SvelteKit', 'Edge APIs', 'LLM Tools', 'Tailwind', 'Workers'],
+      'Deep learning application using RESNET and VGGNET architectures to detect cervical cancer from medical imaging data with high accuracy.',
+    impact: 'Implemented robust deep learning models for medical image classification.',
+    stack: ['TensorFlow', 'Sklearn', 'NumPy', 'OpenCV', 'Matplotlib'],
     github: 'https://github.com/',
-    demo: 'https://netlify.com/',
+    demo: 'https://themarcell.vercel.app/',
     accent: '#f0abfc',
-    preview: 'Generative campaign builder with live market signals',
-    highlights: ['Structured generation', 'Variant comparison', 'Accessible editorial tooling']
+    preview: 'Deep learning model for cervical cancer detection from medical images',
+    highlights: ['RESNET Architecture', 'VGGNET Architecture', 'Medical Image Analysis']
   },
   {
-    slug: 'atlas-labs',
-    title: 'Atlas Labs',
-    category: 'Systems',
+    slug: 'hotel-landing',
+    title: '4-Star Hotel Landing Page',
+    category: 'Product',
     description:
-      'A cinematic documentation and analytics layer for infrastructure teams managing deployments across regions and runtime providers.',
-    impact: 'Improved deployment confidence with visual diffing, release trails, and failure-state choreography.',
-    stack: ['Svelte', 'D3', 'Vite', 'Serverless', 'Playwright'],
+      'A professional hotel landing page showcasing amenities and booking features. Built with semantic HTML, modern CSS styling, and interactive JavaScript.',
+    impact: 'Created engaging landing page with responsive design and interactive elements.',
+    stack: ['HTML5', 'CSS3', 'JavaScript', 'Responsive Design'],
     github: 'https://github.com/',
-    demo: 'https://cloudflare.com/',
+    demo: 'https://themarcell.vercel.app/',
     accent: '#86efac',
-    preview: 'Interactive deployment topology with release playback',
-    highlights: ['Route-level code splitting', 'Scroll-driven explainers', 'Traceable release history']
+    preview: 'Hotel landing page with amenities showcase and reservation interface',
+    highlights: ['Semantic HTML', 'Modern CSS', 'Interactive Elements']
   },
   {
-    slug: 'luma-checkout',
-    title: 'Luma Checkout',
-    category: 'Commerce',
+    slug: 'real-image-portfolio',
+    title: 'REAL IMAGE Bespoke Portfolio',
+    category: 'Product',
     description:
-      'A premium checkout rebuild focused on trust, speed, and low-friction recovery paths across mobile and desktop purchase flows.',
-    impact: 'Lifted checkout completion by 18% and reduced mobile form abandonment through progressive disclosure.',
-    stack: ['SvelteKit', 'Stripe', 'Forms', 'A11y', 'Vitest'],
+      'A custom portfolio website showcasing design work and creative services with premium presentation and smooth user experience.',
+    impact: 'Delivered professional portfolio with polished design and user experience.',
+    stack: ['HTML5', 'CSS3', 'JavaScript', 'Design', 'UI/UX'],
     github: 'https://github.com/',
-    demo: 'https://stripe.com/',
+    demo: 'https://themarcell.vercel.app/',
     accent: '#fde68a',
-    preview: 'Adaptive checkout flow with resilient validation states',
-    highlights: ['Reduced-motion parity', 'Secure form states', 'Conversion-focused microinteractions']
+    preview: 'Bespoke portfolio site with premium design presentation',
+    highlights: ['Premium Design', 'Smooth Experience', 'Professional Showcase']
+  },
+  {
+    slug: 'waleefects',
+    title: 'Waleefects Portfolio',
+    category: 'Product',
+    description:
+      'A creative portfolio website showcasing digital services and creative work. Designed with modern web technologies and attention to visual hierarchy.',
+    impact: 'Created professional portfolio platform for creative services.',
+    stack: ['React', 'JavaScript', 'CSS3', 'UI Design'],
+    github: 'https://github.com/',
+    demo: 'https://themarcell.vercel.app/',
+    accent: '#c7d2fe',
+    preview: 'Creative services portfolio with modern design',
+    highlights: ['Creative Showcase', 'Modern UI', 'Professional Presentation']
   }
 ];
 

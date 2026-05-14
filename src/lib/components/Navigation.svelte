@@ -39,7 +39,7 @@
 <header class="nav-frame" aria-label="Primary navigation">
   <a class="brand" href="#home" on:click|preventDefault={() => go('home')}>
     <span class="brand-mark">AM</span>
-    <span>Alex Morgan</span>
+    <span>Marcel Onoja</span>
   </a>
 
   <nav class:open aria-label="Portfolio sections">
